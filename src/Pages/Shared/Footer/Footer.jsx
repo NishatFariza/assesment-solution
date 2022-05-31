@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <footer className="footer lg:h-[30vh]">
       <div>
-          <p>Copyright 2011 <span></span> </p>
+        <p className="text-white">
+          Copyright 2011 <span>All Rights Reserve</span>{" "}
+        </p>
       </div>
     </footer>
   );
