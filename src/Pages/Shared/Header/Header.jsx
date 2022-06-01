@@ -12,15 +12,15 @@ const Header = () => {
     <header>
       <div className="lg:py-4 py-6 bg-blue-600">
         <div className="lg:w-10/12 w-11/12 flex-wrap mx-auto flex justify-between items-center">
-          <div className="flex lg:w-6/12 w-full flex-wrap justify-between ">
-            <div className="flex justify-center items-center text-sm  text-white mx-auto lg:mx-0">
+          <div className="flex lg:w-6/12 w-full flex-wrap justify-center ">
+            <div className="flex justify-center items-center text-sm  text-white mx-auto lg:mx-0 lg:border-r lg:pr-3">
               <BsTelephoneFill></BsTelephoneFill>
               <p className=" ml-2">+91 000000000</p>
               <p className=" mx-2">/</p>
               <BsWhatsapp></BsWhatsapp>
               <p className="ml-2">+91 000000000</p>
             </div>
-            <div className="flex justify-center mx-auto lg:mx-0 items-center text-sm my-1.5 text-white">
+            <div className="flex justify-center mx-auto lg:mx-0 items-center text-sm my-1.5 text-white lg:pl-3">
               <FaEnvelope></FaEnvelope>
               <p className=" ml-2 ">info@gmail.com</p>
               <p className=" mx-2 ">/</p>
